@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Welcome to 景哥的网站
 
 You can use the [editor on GitHub](https://github.com/lcjjj/lcjjj.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
