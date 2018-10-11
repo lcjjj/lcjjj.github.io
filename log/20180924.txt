@@ -1,0 +1,15 @@
+-----------------------------------------
+2018/09/24 09:49:05
+select cat_id,catname from cat
+-----------------------------------------
+
+-----------------------------------------
+2018/09/24 09:49:05
+select count(*) from art where 1
+-----------------------------------------
+
+-----------------------------------------
+2018/09/24 09:49:05
+select art_id,title,content,pubtime,comm,catname,thumb from art inner join cat on art.cat_id=cat.cat_id where 1 order by art_id desc limit 0,2
+-----------------------------------------
+

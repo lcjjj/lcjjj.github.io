@@ -1,0 +1,460 @@
+-----------------------------------------
+2018/09/26 12:15:14
+select cat_id,catname from cat
+-----------------------------------------
+
+-----------------------------------------
+2018/09/26 12:15:14
+select count(*) from art where 1
+-----------------------------------------
+
+-----------------------------------------
+2018/09/26 12:15:14
+select art_id,title,content,pubtime,comm,catname,thumb from art inner join cat on art.cat_id=cat.cat_id where 1 order by art_id desc limit 0,2
+-----------------------------------------
+
+-----------------------------------------
+2018/09/26 12:15:16
+select * from art where art_id = 59
+-----------------------------------------
+
+-----------------------------------------
+2018/09/26 12:15:16
+select title,content,pubtime,catname,pic,comm from art inner join cat on art.cat_id=cat.cat_id where art_id=59
+-----------------------------------------
+
+-----------------------------------------
+2018/09/26 12:15:16
+select * from comment where art_id=59
+-----------------------------------------
+
+-----------------------------------------
+2018/09/26 12:15:20
+select cat_id,catname from cat
+-----------------------------------------
+
+-----------------------------------------
+2018/09/26 12:15:20
+select count(*) from art where 1 and art.cat_id=1
+-----------------------------------------
+
+-----------------------------------------
+2018/09/26 12:15:20
+select art_id,title,content,pubtime,comm,catname,thumb from art inner join cat on art.cat_id=cat.cat_id where 1 and art.cat_id=1 order by art_id desc limit 0,2
+-----------------------------------------
+
+-----------------------------------------
+2018/09/26 12:15:21
+select cat_id,catname from cat
+-----------------------------------------
+
+-----------------------------------------
+2018/09/26 12:15:21
+select count(*) from art where 1 and art.cat_id=2
+-----------------------------------------
+
+-----------------------------------------
+2018/09/26 12:15:21
+select art_id,title,content,pubtime,comm,catname,thumb from art inner join cat on art.cat_id=cat.cat_id where 1 and art.cat_id=2 order by art_id desc limit 0,2
+-----------------------------------------
+
+-----------------------------------------
+2018/09/26 12:15:21
+select cat_id,catname from cat
+-----------------------------------------
+
+-----------------------------------------
+2018/09/26 12:15:21
+select count(*) from art where 1 and art.cat_id=3
+-----------------------------------------
+
+-----------------------------------------
+2018/09/26 12:15:21
+select art_id,title,content,pubtime,comm,catname,thumb from art inner join cat on art.cat_id=cat.cat_id where 1 and art.cat_id=3 order by art_id desc limit 0,2
+-----------------------------------------
+
+-----------------------------------------
+2018/09/26 12:15:23
+select cat_id,catname from cat
+-----------------------------------------
+
+-----------------------------------------
+2018/09/26 12:15:23
+select count(*) from art where 1 and art.cat_id=3
+-----------------------------------------
+
+-----------------------------------------
+2018/09/26 12:15:23
+select art_id,title,content,pubtime,comm,catname,thumb from art inner join cat on art.cat_id=cat.cat_id where 1 and art.cat_id=3 order by art_id desc limit 0,2
+-----------------------------------------
+
+-----------------------------------------
+2018/09/26 12:15:26
+select cat_id,catname from cat
+-----------------------------------------
+
+-----------------------------------------
+2018/09/26 12:15:26
+select count(*) from art where 1 and art.cat_id=3
+-----------------------------------------
+
+-----------------------------------------
+2018/09/26 12:15:26
+select art_id,title,content,pubtime,comm,catname,thumb from art inner join cat on art.cat_id=cat.cat_id where 1 and art.cat_id=3 order by art_id desc limit 0,2
+-----------------------------------------
+
+-----------------------------------------
+2018/09/26 12:15:27
+select cat_id,catname from cat
+-----------------------------------------
+
+-----------------------------------------
+2018/09/26 12:15:27
+select count(*) from art where 1 and art.cat_id=3
+-----------------------------------------
+
+-----------------------------------------
+2018/09/26 12:15:27
+select art_id,title,content,pubtime,comm,catname,thumb from art inner join cat on art.cat_id=cat.cat_id where 1 and art.cat_id=3 order by art_id desc limit 0,2
+-----------------------------------------
+
+-----------------------------------------
+2018/09/26 12:15:28
+select cat_id,catname from cat
+-----------------------------------------
+
+-----------------------------------------
+2018/09/26 12:15:28
+select count(*) from art where 1 and art.cat_id=3
+-----------------------------------------
+
+-----------------------------------------
+2018/09/26 12:15:28
+select art_id,title,content,pubtime,comm,catname,thumb from art inner join cat on art.cat_id=cat.cat_id where 1 and art.cat_id=3 order by art_id desc limit 0,2
+-----------------------------------------
+
+-----------------------------------------
+2018/09/26 12:15:28
+select cat_id,catname from cat
+-----------------------------------------
+
+-----------------------------------------
+2018/09/26 12:15:28
+select count(*) from art where 1 and art.cat_id=3
+-----------------------------------------
+
+-----------------------------------------
+2018/09/26 12:15:28
+select art_id,title,content,pubtime,comm,catname,thumb from art inner join cat on art.cat_id=cat.cat_id where 1 and art.cat_id=3 order by art_id desc limit 0,2
+-----------------------------------------
+
+-----------------------------------------
+2018/09/26 12:15:29
+select cat_id,catname from cat
+-----------------------------------------
+
+-----------------------------------------
+2018/09/26 12:15:29
+select count(*) from art where 1 and art.cat_id=3
+-----------------------------------------
+
+-----------------------------------------
+2018/09/26 12:15:29
+select art_id,title,content,pubtime,comm,catname,thumb from art inner join cat on art.cat_id=cat.cat_id where 1 and art.cat_id=3 order by art_id desc limit 0,2
+-----------------------------------------
+
+-----------------------------------------
+2018/09/26 12:15:29
+select cat_id,catname from cat
+-----------------------------------------
+
+-----------------------------------------
+2018/09/26 12:15:29
+select count(*) from art where 1 and art.cat_id=3
+-----------------------------------------
+
+-----------------------------------------
+2018/09/26 12:15:29
+select art_id,title,content,pubtime,comm,catname,thumb from art inner join cat on art.cat_id=cat.cat_id where 1 and art.cat_id=3 order by art_id desc limit 0,2
+-----------------------------------------
+
+-----------------------------------------
+2018/09/26 12:15:29
+select cat_id,catname from cat
+-----------------------------------------
+
+-----------------------------------------
+2018/09/26 12:15:29
+select count(*) from art where 1 and art.cat_id=3
+-----------------------------------------
+
+-----------------------------------------
+2018/09/26 12:15:29
+select art_id,title,content,pubtime,comm,catname,thumb from art inner join cat on art.cat_id=cat.cat_id where 1 and art.cat_id=3 order by art_id desc limit 0,2
+-----------------------------------------
+
+-----------------------------------------
+2018/09/26 12:15:30
+select cat_id,catname from cat
+-----------------------------------------
+
+-----------------------------------------
+2018/09/26 12:15:30
+select count(*) from art where 1 and art.cat_id=3
+-----------------------------------------
+
+-----------------------------------------
+2018/09/26 12:15:30
+select art_id,title,content,pubtime,comm,catname,thumb from art inner join cat on art.cat_id=cat.cat_id where 1 and art.cat_id=3 order by art_id desc limit 0,2
+-----------------------------------------
+
+-----------------------------------------
+2018/09/26 12:15:30
+select cat_id,catname from cat
+-----------------------------------------
+
+-----------------------------------------
+2018/09/26 12:15:30
+select count(*) from art where 1 and art.cat_id=3
+-----------------------------------------
+
+-----------------------------------------
+2018/09/26 12:15:30
+select art_id,title,content,pubtime,comm,catname,thumb from art inner join cat on art.cat_id=cat.cat_id where 1 and art.cat_id=3 order by art_id desc limit 0,2
+-----------------------------------------
+
+-----------------------------------------
+2018/09/26 12:15:31
+select cat_id,catname from cat
+-----------------------------------------
+
+-----------------------------------------
+2018/09/26 12:15:31
+select count(*) from art where 1 and art.cat_id=3
+-----------------------------------------
+
+-----------------------------------------
+2018/09/26 12:15:31
+select art_id,title,content,pubtime,comm,catname,thumb from art inner join cat on art.cat_id=cat.cat_id where 1 and art.cat_id=3 order by art_id desc limit 0,2
+-----------------------------------------
+
+-----------------------------------------
+2018/09/26 12:15:31
+select cat_id,catname from cat
+-----------------------------------------
+
+-----------------------------------------
+2018/09/26 12:15:31
+select count(*) from art where 1 and art.cat_id=3
+-----------------------------------------
+
+-----------------------------------------
+2018/09/26 12:15:31
+select art_id,title,content,pubtime,comm,catname,thumb from art inner join cat on art.cat_id=cat.cat_id where 1 and art.cat_id=3 order by art_id desc limit 0,2
+-----------------------------------------
+
+-----------------------------------------
+2018/09/26 12:15:32
+select cat_id,catname from cat
+-----------------------------------------
+
+-----------------------------------------
+2018/09/26 12:15:32
+select count(*) from art where 1 and art.cat_id=3
+-----------------------------------------
+
+-----------------------------------------
+2018/09/26 12:15:32
+select art_id,title,content,pubtime,comm,catname,thumb from art inner join cat on art.cat_id=cat.cat_id where 1 and art.cat_id=3 order by art_id desc limit 0,2
+-----------------------------------------
+
+-----------------------------------------
+2018/09/26 12:15:32
+select cat_id,catname from cat
+-----------------------------------------
+
+-----------------------------------------
+2018/09/26 12:15:32
+select count(*) from art where 1 and art.cat_id=3
+-----------------------------------------
+
+-----------------------------------------
+2018/09/26 12:15:32
+select art_id,title,content,pubtime,comm,catname,thumb from art inner join cat on art.cat_id=cat.cat_id where 1 and art.cat_id=3 order by art_id desc limit 0,2
+-----------------------------------------
+
+-----------------------------------------
+2018/09/26 12:15:33
+select cat_id,catname from cat
+-----------------------------------------
+
+-----------------------------------------
+2018/09/26 12:15:33
+select count(*) from art where 1 and art.cat_id=3
+-----------------------------------------
+
+-----------------------------------------
+2018/09/26 12:15:33
+select art_id,title,content,pubtime,comm,catname,thumb from art inner join cat on art.cat_id=cat.cat_id where 1 and art.cat_id=3 order by art_id desc limit 0,2
+-----------------------------------------
+
+-----------------------------------------
+2018/09/26 12:15:33
+select cat_id,catname from cat
+-----------------------------------------
+
+-----------------------------------------
+2018/09/26 12:15:33
+select count(*) from art where 1 and art.cat_id=3
+-----------------------------------------
+
+-----------------------------------------
+2018/09/26 12:15:33
+select art_id,title,content,pubtime,comm,catname,thumb from art inner join cat on art.cat_id=cat.cat_id where 1 and art.cat_id=3 order by art_id desc limit 0,2
+-----------------------------------------
+
+-----------------------------------------
+2018/09/26 12:15:38
+select cat_id,catname from cat
+-----------------------------------------
+
+-----------------------------------------
+2018/09/26 12:15:38
+select count(*) from art where 1
+-----------------------------------------
+
+-----------------------------------------
+2018/09/26 12:15:38
+select art_id,title,content,pubtime,comm,catname,thumb from art inner join cat on art.cat_id=cat.cat_id where 1 order by art_id desc limit 0,2
+-----------------------------------------
+
+-----------------------------------------
+2018/09/26 12:15:41
+select * from art where art_id = 59
+-----------------------------------------
+
+-----------------------------------------
+2018/09/26 12:15:41
+select title,content,pubtime,catname,pic,comm from art inner join cat on art.cat_id=cat.cat_id where art_id=59
+-----------------------------------------
+
+-----------------------------------------
+2018/09/26 12:15:41
+select * from comment where art_id=59
+-----------------------------------------
+
+-----------------------------------------
+2018/09/26 16:20:39
+select art_id,title,pubtime,comm,catname from art left join cat on art.cat_id=cat.cat_id
+-----------------------------------------
+
+-----------------------------------------
+2018/09/26 16:21:02
+select * from user where name='dasd\'or 1 #' and password='asdas'
+-----------------------------------------
+
+-----------------------------------------
+2018/09/26 16:54:04
+select * from user where name='dasd\'or 1 #'
+-----------------------------------------
+
+-----------------------------------------
+2018/09/26 16:54:13
+select * from user where name='dasd\'or 1 #'
+-----------------------------------------
+
+-----------------------------------------
+2018/09/26 16:54:23
+select * from user where name='admin'
+-----------------------------------------
+
+-----------------------------------------
+2018/09/26 16:58:22
+select * from user where name='admin'
+-----------------------------------------
+
+-----------------------------------------
+2018/09/26 16:58:45
+select cat_id,catname from cat
+-----------------------------------------
+
+-----------------------------------------
+2018/09/26 16:58:45
+select count(*) from art where 1
+-----------------------------------------
+
+-----------------------------------------
+2018/09/26 16:58:45
+select art_id,title,content,pubtime,comm,catname,thumb from art inner join cat on art.cat_id=cat.cat_id where 1 order by art_id desc limit 0,2
+-----------------------------------------
+
+-----------------------------------------
+2018/09/26 16:59:19
+select * from user where name='admin'
+-----------------------------------------
+
+-----------------------------------------
+2018/09/26 16:59:19
+select * from user where name='admin'
+-----------------------------------------
+
+-----------------------------------------
+2018/09/26 16:59:24
+select * from user where name='admin'
+-----------------------------------------
+
+-----------------------------------------
+2018/09/26 16:59:24
+select * from user where name='admin'
+-----------------------------------------
+
+-----------------------------------------
+2018/09/26 17:00:05
+select * from user where name='admin'
+-----------------------------------------
+
+-----------------------------------------
+2018/09/26 17:00:05
+select * from user where name='admin'
+-----------------------------------------
+
+-----------------------------------------
+2018/09/26 17:00:10
+select * from user where name='admin'
+-----------------------------------------
+
+-----------------------------------------
+2018/09/26 17:00:10
+select * from user where name='admin'
+-----------------------------------------
+
+-----------------------------------------
+2018/09/26 17:02:00
+select * from user where name='admin'
+-----------------------------------------
+
+-----------------------------------------
+2018/09/26 17:02:00
+select * from user where name='admin'
+-----------------------------------------
+
+-----------------------------------------
+2018/09/26 17:02:00
+select art_id,title,pubtime,comm,catname from art left join cat on art.cat_id=cat.cat_id
+-----------------------------------------
+
+-----------------------------------------
+2018/09/26 17:02:19
+select cat_id,catname from cat
+-----------------------------------------
+
+-----------------------------------------
+2018/09/26 17:02:19
+select count(*) from art where 1
+-----------------------------------------
+
+-----------------------------------------
+2018/09/26 17:02:19
+select art_id,title,content,pubtime,comm,catname,thumb from art inner join cat on art.cat_id=cat.cat_id where 1 order by art_id desc limit 0,2
+-----------------------------------------
+

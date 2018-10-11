@@ -1,0 +1,295 @@
+-----------------------------------------
+2018/09/25 05:16:29
+select cat_id,catname from cat
+-----------------------------------------
+
+-----------------------------------------
+2018/09/25 05:16:29
+select count(*) from art where 1
+-----------------------------------------
+
+-----------------------------------------
+2018/09/25 05:16:29
+select art_id,title,content,pubtime,comm,catname,thumb from art inner join cat on art.cat_id=cat.cat_id where 1 order by art_id desc limit 0,2
+-----------------------------------------
+
+-----------------------------------------
+2018/09/25 09:44:03
+select * from user where name= and password=123
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and password=123' at line 1
+-----------------------------------------
+
+-----------------------------------------
+2018/09/25 09:44:07
+select * from user where name= and password=123
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and password=123' at line 1
+-----------------------------------------
+
+-----------------------------------------
+2018/09/25 09:45:20
+select * from user where name= and password=
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and password=' at line 1
+-----------------------------------------
+
+-----------------------------------------
+2018/09/25 09:45:22
+select * from user where name= and password=
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and password=' at line 1
+-----------------------------------------
+
+-----------------------------------------
+2018/09/25 09:45:28
+select * from user where name= and password=123
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and password=123' at line 1
+-----------------------------------------
+
+-----------------------------------------
+2018/09/25 09:45:48
+select * from user where name= and password=123
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and password=123' at line 1
+-----------------------------------------
+
+-----------------------------------------
+2018/09/25 09:46:30
+select * from user where name=admin and password=123
+Unknown column 'admin' in 'where clause'
+-----------------------------------------
+
+-----------------------------------------
+2018/09/25 09:46:35
+select * from user where name=admin and password=
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+-----------------------------------------
+
+-----------------------------------------
+2018/09/25 09:46:42
+select * from user where name=admin and password=123456
+Unknown column 'admin' in 'where clause'
+-----------------------------------------
+
+-----------------------------------------
+2018/09/25 09:47:17
+select * from user where name=admin and password=123456
+Unknown column 'admin' in 'where clause'
+-----------------------------------------
+
+-----------------------------------------
+2018/09/25 09:48:20
+select * from user where name='admin' and password='123456'
+-----------------------------------------
+
+-----------------------------------------
+2018/09/25 09:48:20
+select art_id,title,pubtime,comm,catname from art left join cat on art.cat_id=cat.cat_id
+-----------------------------------------
+
+-----------------------------------------
+2018/09/25 09:48:29
+select * from art where art_id=33
+-----------------------------------------
+
+-----------------------------------------
+2018/09/25 09:48:29
+delete from art where art_id=33
+-----------------------------------------
+
+-----------------------------------------
+2018/09/25 09:48:29
+select art_id,title,pubtime,comm,catname from art left join cat on art.cat_id=cat.cat_id
+-----------------------------------------
+
+-----------------------------------------
+2018/09/25 09:48:30
+select * from art where art_id=37
+-----------------------------------------
+
+-----------------------------------------
+2018/09/25 09:48:30
+delete from art where art_id=37
+-----------------------------------------
+
+-----------------------------------------
+2018/09/25 09:48:30
+select art_id,title,pubtime,comm,catname from art left join cat on art.cat_id=cat.cat_id
+-----------------------------------------
+
+-----------------------------------------
+2018/09/25 09:48:31
+select * from art where art_id=36
+-----------------------------------------
+
+-----------------------------------------
+2018/09/25 09:48:31
+delete from art where art_id=36
+-----------------------------------------
+
+-----------------------------------------
+2018/09/25 09:48:31
+select art_id,title,pubtime,comm,catname from art left join cat on art.cat_id=cat.cat_id
+-----------------------------------------
+
+-----------------------------------------
+2018/09/25 09:48:31
+select * from art where art_id=38
+-----------------------------------------
+
+-----------------------------------------
+2018/09/25 09:48:31
+delete from art where art_id=38
+-----------------------------------------
+
+-----------------------------------------
+2018/09/25 09:48:31
+select art_id,title,pubtime,comm,catname from art left join cat on art.cat_id=cat.cat_id
+-----------------------------------------
+
+-----------------------------------------
+2018/09/25 09:48:32
+select * from art where art_id=39
+-----------------------------------------
+
+-----------------------------------------
+2018/09/25 09:48:32
+delete from art where art_id=39
+-----------------------------------------
+
+-----------------------------------------
+2018/09/25 09:48:32
+select art_id,title,pubtime,comm,catname from art left join cat on art.cat_id=cat.cat_id
+-----------------------------------------
+
+-----------------------------------------
+2018/09/25 09:48:32
+select * from art where art_id=40
+-----------------------------------------
+
+-----------------------------------------
+2018/09/25 09:48:32
+delete from art where art_id=40
+-----------------------------------------
+
+-----------------------------------------
+2018/09/25 09:48:32
+select art_id,title,pubtime,comm,catname from art left join cat on art.cat_id=cat.cat_id
+-----------------------------------------
+
+-----------------------------------------
+2018/09/25 09:48:32
+select * from art where art_id=41
+-----------------------------------------
+
+-----------------------------------------
+2018/09/25 09:48:32
+delete from art where art_id=41
+-----------------------------------------
+
+-----------------------------------------
+2018/09/25 09:48:32
+select art_id,title,pubtime,comm,catname from art left join cat on art.cat_id=cat.cat_id
+-----------------------------------------
+
+-----------------------------------------
+2018/09/25 09:48:32
+select * from art where art_id=42
+-----------------------------------------
+
+-----------------------------------------
+2018/09/25 09:48:32
+delete from art where art_id=42
+-----------------------------------------
+
+-----------------------------------------
+2018/09/25 09:48:32
+select art_id,title,pubtime,comm,catname from art left join cat on art.cat_id=cat.cat_id
+-----------------------------------------
+
+-----------------------------------------
+2018/09/25 09:48:33
+select * from art where art_id=43
+-----------------------------------------
+
+-----------------------------------------
+2018/09/25 09:48:33
+delete from art where art_id=43
+-----------------------------------------
+
+-----------------------------------------
+2018/09/25 09:48:33
+select art_id,title,pubtime,comm,catname from art left join cat on art.cat_id=cat.cat_id
+-----------------------------------------
+
+-----------------------------------------
+2018/09/25 09:48:33
+select * from art where art_id=55
+-----------------------------------------
+
+-----------------------------------------
+2018/09/25 09:48:33
+delete from art where art_id=55
+-----------------------------------------
+
+-----------------------------------------
+2018/09/25 09:48:33
+select art_id,title,pubtime,comm,catname from art left join cat on art.cat_id=cat.cat_id
+-----------------------------------------
+
+-----------------------------------------
+2018/09/25 09:48:33
+select * from art where art_id=45
+-----------------------------------------
+
+-----------------------------------------
+2018/09/25 09:48:33
+delete from art where art_id=45
+-----------------------------------------
+
+-----------------------------------------
+2018/09/25 09:48:33
+select art_id,title,pubtime,comm,catname from art left join cat on art.cat_id=cat.cat_id
+-----------------------------------------
+
+-----------------------------------------
+2018/09/25 09:48:33
+select * from art where art_id=46
+-----------------------------------------
+
+-----------------------------------------
+2018/09/25 09:48:33
+delete from art where art_id=46
+-----------------------------------------
+
+-----------------------------------------
+2018/09/25 09:48:34
+select art_id,title,pubtime,comm,catname from art left join cat on art.cat_id=cat.cat_id
+-----------------------------------------
+
+-----------------------------------------
+2018/09/25 15:47:00
+select art_id,title,pubtime,comm,catname from art left join cat on art.cat_id=cat.cat_id
+-----------------------------------------
+
+-----------------------------------------
+2018/09/25 15:47:00
+select art_id,title,pubtime,comm,catname from art left join cat on art.cat_id=cat.cat_id
+-----------------------------------------
+
+-----------------------------------------
+2018/09/25 15:47:33
+select * from user where name='admin' and password='123456'
+-----------------------------------------
+
+-----------------------------------------
+2018/09/25 15:47:33
+select art_id,title,pubtime,comm,catname from art left join cat on art.cat_id=cat.cat_id
+-----------------------------------------
+
+-----------------------------------------
+2018/09/25 16:04:29
+select art_id,title,pubtime,comm,catname from art left join cat on art.cat_id=cat.cat_id
+-----------------------------------------
+
+-----------------------------------------
+2018/09/25 16:05:00
+select art_id,title,pubtime,comm,catname from art left join cat on art.cat_id=cat.cat_id
+-----------------------------------------
+
